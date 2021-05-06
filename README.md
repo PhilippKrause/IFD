@@ -16,3 +16,6 @@ Repo for Interface Design :: Philipp Krause :: SS-21
 ## Task 04 - Low-Fid Prototyp
 01.  <a href="https://github.com/PhilippKrause/IFD/blob/main/Task04_Entwürfe" target="_blank">Task04: LowFidPrototyp</a>
 02.  <a href="https://github.com/PhilippKrause/IFD/blob/main/AdobeXd_von_Philipp_Krause.pdf" target="_blank">Task04: AdobeXd_von_Philipp_Krause.pdf</a>
+
+## Task 05/06 - High-Fid Prototyp
+01. <a href="https://webuser.hs-furtwangen.de/~krauseph/IntDes/#id=dp5i1j&p=page_1&c=1" target="_blank">High-Fid-Prototyp</a><br/>
