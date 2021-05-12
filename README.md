@@ -19,3 +19,6 @@ Repo for Interface Design :: Philipp Krause :: SS-21
 
 ## Task 05/06 - High-Fid Prototyp
 01. <a href="https://webuser.hs-furtwangen.de/~krauseph/IntDes/#id=dp5i1j&p=page_1&c=1" target="_blank">High-Fid-Prototyp</a><br/>
+
+## Task 07 - UserTesting
+01. <a href="https://github.com/PhilippKrause/IFD/blob/main/Task07_UserTesting%20.pdf" target="_blank">Konzeptentwurf</a><br/>
