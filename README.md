@@ -24,5 +24,5 @@ Repo for Interface Design :: Philipp Krause :: SS-21
 01. <a href="https://github.com/PhilippKrause/IFD/blob/main/Task07_UserTesting%20.pdf" target="_blank">User Test</a><br/>
 
 ## Task 08 - Prototype Enhancement
-01. <a href="https://github.com/PhilippKrause/IFD/blob/main/Task07_UserTesting%20.pdf" target="_blank">Dokumentation</a><br/>
+01. <a href="https://github.com/PhilippKrause/IFD/blob/main/Task08_Dokumentation_Prototype%20Enhancement.pdf" target="_blank">Dokumentation</a><br/>
 02. <a href="https://webuser.hs-furtwangen.de/~krauseph/GameReport/#id=dp5i1j&p=page_1" target="_blank">Enhanced Prototype</a><br/>
