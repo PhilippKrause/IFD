@@ -1,0 +1,2112 @@
+{
+  "_version": "1.0",
+  "project": {
+    "_id": "60ca029938fa80001b85ff46",
+    "name": "GameReport_VUI",
+    "teamID": "0GkvJRgk26",
+    "devVersion": "60ca0299070e180006109148",
+    "platform": "general",
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "members": [],
+    "linkType": "STRAIGHT",
+    "image": "",
+    "creatorID": 66830
+  },
+  "version": {
+    "_id": "60ca0299070e180006109148",
+    "name": "Initial Version",
+    "projectID": "60ca029938fa80001b85ff46",
+    "variables": [
+      "team",
+      "result",
+      "value",
+      "time",
+      "powerplay"
+    ],
+    "platformData": {
+      "slots": [
+        {
+          "key": "rh1037y1",
+          "name": "stat",
+          "type": {
+            "value": "VF.NAME"
+          },
+          "color": "#5C6BC0",
+          "inputs": []
+        },
+        {
+          "key": "p71137qp",
+          "name": "team",
+          "type": {
+            "value": "VF.NAME"
+          },
+          "color": "#3A5999",
+          "inputs": []
+        }
+      ],
+      "intents": [
+        {
+          "key": "v4f37xb",
+          "name": "Ergebnis",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Wie viel steht es?",
+              "slots": []
+            },
+            {
+              "text": "Sag mir das Ergebnis!",
+              "slots": []
+            },
+            {
+              "text": "Wie steht es?",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "j8z37gk",
+          "name": "stats",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Torschüsse München",
+              "slots": []
+            },
+            {
+              "text": "Wie viele Torschüsse hat München?",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "ug1837eh",
+          "name": "highlights",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Ich möchte die Highlights des Spiels sehen!",
+              "slots": []
+            },
+            {
+              "text": "Zeig mir die Highlights des Spiels!",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "s92s37jl",
+          "name": "time",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Wie lange dauert das Spiel noch?",
+              "slots": []
+            },
+            {
+              "text": "Wie lange geht es noch?",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "2032378t",
+          "name": "update",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Halte mich über das Spiel auf dem Laufenden!",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "bf5k37d1",
+          "name": "activate",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Ok Puck",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "35f037l0",
+          "name": "strafe",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Welche Strafe?",
+              "slots": []
+            },
+            {
+              "text": "Wieso?",
+              "slots": []
+            },
+            {
+              "text": "Was war die Strafe?",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "ybgc37i2",
+          "name": "scorer",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Torschütze?",
+              "slots": []
+            },
+            {
+              "text": "Wer war der Torschütze?",
+              "slots": []
+            },
+            {
+              "text": "Wer hat das Tor gescossen?",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "gk1yd373o",
+          "name": "stats_2",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Wie viele Torschüsse hat Ingolstadt?",
+              "slots": []
+            },
+            {
+              "text": "Torschüsse Ingolstadt ",
+              "slots": []
+            }
+          ]
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "de-DE"
+        ]
+      },
+      "publishing": {},
+      "platform": "general"
+    },
+    "rootDiagramID": "60ca0299070e180006109149",
+    "creatorID": 66830,
+    "prototype": {
+      "data": {
+        "name": "GameReport_VUI",
+        "locales": [
+          "de-DE"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "v4f37xb",
+            "name": "Ergebnis",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Wie viel steht es?",
+                "slots": []
+              },
+              {
+                "text": "Sag mir das Ergebnis!",
+                "slots": []
+              },
+              {
+                "text": "Wie steht es?",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "j8z37gk",
+            "name": "stats",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Torschüsse München",
+                "slots": []
+              },
+              {
+                "text": "Wie viele Torschüsse hat München?",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "ug1837eh",
+            "name": "highlights",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Ich möchte die Highlights des Spiels sehen!",
+                "slots": []
+              },
+              {
+                "text": "Zeig mir die Highlights des Spiels!",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "s92s37jl",
+            "name": "time",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Wie lange dauert das Spiel noch?",
+                "slots": []
+              },
+              {
+                "text": "Wie lange geht es noch?",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "2032378t",
+            "name": "update",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Halte mich über das Spiel auf dem Laufenden!",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "bf5k37d1",
+            "name": "activate",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Ok Puck",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "35f037l0",
+            "name": "strafe",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Welche Strafe?",
+                "slots": []
+              },
+              {
+                "text": "Wieso?",
+                "slots": []
+              },
+              {
+                "text": "Was war die Strafe?",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "ybgc37i2",
+            "name": "scorer",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Torschütze?",
+                "slots": []
+              },
+              {
+                "text": "Wer war der Torschütze?",
+                "slots": []
+              },
+              {
+                "text": "Wer hat das Tor gescossen?",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "gk1yd373o",
+            "name": "stats_2",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Wie viele Torschüsse hat Ingolstadt?",
+                "slots": []
+              },
+              {
+                "text": "Torschüsse Ingolstadt",
+                "slots": []
+              }
+            ]
+          }
+        ],
+        "slots": [
+          {
+            "key": "rh1037y1",
+            "name": "stat",
+            "type": {
+              "value": "VF.NAME"
+            },
+            "color": "#5C6BC0",
+            "inputs": []
+          },
+          {
+            "key": "p71137qp",
+            "name": "team",
+            "type": {
+              "value": "VF.NAME"
+            },
+            "color": "#3A5999",
+            "inputs": []
+          }
+        ]
+      },
+      "context": {
+        "stack": [
+          {
+            "storage": {},
+            "variables": {},
+            "programID": "60ca0299070e180006109149"
+          }
+        ]
+      },
+      "settings": {}
+    }
+  },
+  "diagrams": {
+    "60ca0299070e180006109149": {
+      "_id": "60ca0299070e180006109149",
+      "offsetX": 1206.4545454545457,
+      "offsetY": 259.00606060606077,
+      "zoom": 80,
+      "nodes": {
+        "start00000000000000000000": {
+          "nodeID": "start00000000000000000000",
+          "type": "start",
+          "coords": [
+            -1308.928571428571,
+            -323.7857142857147
+          ],
+          "data": {
+            "name": "Start",
+            "color": "standard",
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf7196b2045a6f185a9953",
+                "id": "60ca029d4b878223d9238bf2",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -1143.9284504110165,
+                        -243.7856757713088
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -1082.123255079443,
+                        -243.7856757713088
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -1082.123255079443,
+                        -222.2575080466994
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -1020.3180597478697,
+                        -222.2575080466994
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": [
+              "60ca03194b878223d9238c05"
+            ]
+          }
+        },
+        "60ca03194b878223d9238c05": {
+          "nodeID": "60ca03194b878223d9238c05",
+          "type": "command",
+          "data": {
+            "name": "update",
+            "intent": "2032378t",
+            "diagramID": "60cf6b869f6ecf001b770382",
+            "mappings": [],
+            "next": null,
+            "ports": []
+          }
+        },
+        "60cf2169b2045a6f185a8ef3": {
+          "nodeID": "60cf2169b2045a6f185a8ef3",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Zwischen München und Ingolstadt steht es 0:1<emphasis level=\"strong\"> </emphasis>"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf6095b2045a6f185a920a",
+                "id": "60cf2169b2045a6f185a8ef5"
+              }
+            ]
+          }
+        },
+        "60cf2169b2045a6f185a8ef6": {
+          "nodeID": "60cf2169b2045a6f185a8ef6",
+          "type": "block",
+          "coords": [
+            536.25,
+            -352.24999999999994
+          ],
+          "data": {
+            "name": "Block",
+            "color": "green",
+            "steps": [
+              "60cf2169b2045a6f185a8ef3"
+            ]
+          }
+        },
+        "60cf2217b2045a6f185a8f06": {
+          "nodeID": "60cf2217b2045a6f185a8f06",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "München  hat 22 Torschüsse."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf6095b2045a6f185a9206",
+                "id": "60cf2217b2045a6f185a8f08",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        376.2119829004457,
+                        -110.96208930738058
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        86.07188528234275,
+                        -110.96208930738058
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        86.07188528234275,
+                        -231.25749946363058
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -204.06821233576022,
+                        -231.25749946363058
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60cf2217b2045a6f185a8f09": {
+          "nodeID": "60cf2217b2045a6f185a8f09",
+          "type": "block",
+          "coords": [
+            541.2121212121212,
+            -190.9621212121213
+          ],
+          "data": {
+            "name": "Block",
+            "color": "green",
+            "steps": [
+              "60cf2217b2045a6f185a8f06"
+            ]
+          }
+        },
+        "60cf229db2045a6f185a8f19": {
+          "nodeID": "60cf229db2045a6f185a8f19",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Highlights des Spiels werden wiedergegeben."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf22bcb2045a6f185a8f24",
+                "id": "60cf229db2045a6f185a8f1b",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        705.0000249689272,
+                        191.25005363695536
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        797.1436864679506,
+                        191.25005363695536
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        797.1436864679506,
+                        14.364982836174107
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        889.2873479669739,
+                        14.364982836174107
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60cf229db2045a6f185a8f1c": {
+          "nodeID": "60cf229db2045a6f185a8f1c",
+          "type": "block",
+          "coords": [
+            540,
+            100.25000000000006
+          ],
+          "data": {
+            "name": "Block",
+            "color": "green",
+            "steps": [
+              "60cf229db2045a6f185a8f19"
+            ]
+          }
+        },
+        "60cf22bcb2045a6f185a8f24": {
+          "nodeID": "60cf22bcb2045a6f185a8f24",
+          "type": "visual",
+          "data": {
+            "name": "Visuals",
+            "image": "https://s3.amazonaws.com/com.getstoryflow.api.images/1624187926611-thumbnail.jpg",
+            "device": null,
+            "dimensions": {
+              "width": 1911,
+              "height": 1086
+            },
+            "visualType": "image",
+            "canvasVisibility": "full",
+            "blockColor": "standard",
+            "frameType": "AUTO",
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf6095b2045a6f185a9206",
+                "id": "60cf22bcb2045a6f185a8f26",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        890.2874528711488,
+                        15.364943735527135
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        343.10962026769425,
+                        15.364943735527135
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        343.10962026769425,
+                        -231.2575233054885
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -204.06821233576022,
+                        -231.2575233054885
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60cf22bcb2045a6f185a8f27": {
+          "nodeID": "60cf22bcb2045a6f185a8f27",
+          "type": "block",
+          "coords": [
+            1055.2873563218393,
+            -64.6350574712643
+          ],
+          "data": {
+            "name": "Block",
+            "color": "green",
+            "steps": [
+              "60cf22bcb2045a6f185a8f24"
+            ]
+          }
+        },
+        "60cf244db2045a6f185a8f69": {
+          "nodeID": "60cf244db2045a6f185a8f69",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Es sind noch 10 Minuten zu spielen."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf6095b2045a6f185a9206",
+                "id": "60cf244db2045a6f185a8f6b",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        385.83432787114884,
+                        429.0998113083115
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        90.88305776769431,
+                        429.0998113083115
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        90.88305776769431,
+                        -231.25756860501858
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -204.06821233576022,
+                        -231.25756860501858
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60cf244db2045a6f185a8f6c": {
+          "nodeID": "60cf244db2045a6f185a8f6c",
+          "type": "block",
+          "coords": [
+            550.8344322344325,
+            338.0998168498168
+          ],
+          "data": {
+            "name": "Block",
+            "color": "green",
+            "steps": [
+              "60cf244db2045a6f185a8f69"
+            ]
+          }
+        },
+        "60cf6095b2045a6f185a9206": {
+          "nodeID": "60cf6095b2045a6f185a9206",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "reprompt",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "default",
+                  "content": "Entschuldingung Ich habe Sie nicht verstanden, probieren Sie es nocheinmal"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "v4f37xb",
+                "mappings": []
+              },
+              {
+                "intent": "j8z37gk",
+                "mappings": []
+              },
+              {
+                "intent": "ug1837eh",
+                "mappings": []
+              },
+              {
+                "intent": "s92s37jl",
+                "mappings": []
+              },
+              {
+                "intent": "2032378t",
+                "mappings": []
+              },
+              {
+                "intent": "gk1yd373o",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "chips": null,
+            "buttons": null,
+            "ports": [
+              {
+                "type": "",
+                "target": null,
+                "id": "60cf6095b2045a6f185a9208"
+              },
+              {
+                "type": "",
+                "target": "60cf2169b2045a6f185a8ef3",
+                "id": "60cf6095b2045a6f185a9209",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -203.0682361776182,
+                        -230.2575647903213
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        83.59089439565446,
+                        -230.2575647903213
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        83.59089439565446,
+                        -273.2500040603408
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        370.2500249689271,
+                        -273.2500040603408
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 2,
+                "target": "60cf2217b2045a6f185a8f06",
+                "id": "60cf60beb2045a6f185a9213",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -203.06815988367288,
+                        -176.2575495315322
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        86.07201164418962,
+                        -176.2575495315322
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        86.07201164418962,
+                        -111.96204782254782
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        375.2121831720521,
+                        -111.96204782254782
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 3,
+                "target": "60cf229db2045a6f185a8f19",
+                "id": "60cf60dab2045a6f185a9216",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -203.0682361776182,
+                        -122.25755334622953
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        85.46589439565446,
+                        -122.25755334622953
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        85.46589439565446,
+                        179.25003408663179
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        374.0000249689271,
+                        179.25003408663179
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 4,
+                "target": "60cf244db2045a6f185a8f69",
+                "id": "60cf60deb2045a6f185a9218",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -203.0682361776182,
+                        -68.2575571609268
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        90.88306968862321,
+                        -68.2575571609268
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        90.88306968862321,
+                        417.0998418258896
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        384.8343755548646,
+                        417.0998418258896
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 5,
+                "target": "60cf6c8ab2045a6f185a9592",
+                "id": "60cf6c73b2045a6f185a9590",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -533.0681598836729,
+                        -14.257553823066615
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -557.0681598836729,
+                        -14.257553823066615
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -557.0681598836729,
+                        303.7424766945115
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -394.0682123357604,
+                        303.7424766945115
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 6,
+                "target": "60cf7018b2045a6f185a97f0",
+                "id": "60cf6fcdb2045a6f185a97ee",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -203.06815988367288,
+                        39.74248527758036
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        39.556813890283365,
+                        39.74248527758036
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        39.556813890283365,
+                        50.24243950121317
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        282.1817876642396,
+                        50.24243950121317
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60cf6095b2045a6f185a920a": {
+          "nodeID": "60cf6095b2045a6f185a920a",
+          "type": "block",
+          "coords": [
+            -368.06818181818187,
+            -310.25757575757586
+          ],
+          "data": {
+            "name": "inputs",
+            "color": "blue",
+            "steps": [
+              "60cf6095b2045a6f185a9206"
+            ]
+          }
+        },
+        "60cf6c8ab2045a6f185a9592": {
+          "nodeID": "60cf6c8ab2045a6f185a9592",
+          "type": "flow",
+          "data": {
+            "diagramID": "60cf6b869f6ecf001b770382",
+            "variableMap": null,
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf6095b2045a6f185a920a",
+                "id": "60cf6c8ab2045a6f185a9594",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -393.0682600194761,
+                        304.74248527758033
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -557.0682581121274,
+                        304.74248527758033
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -557.0682581121274,
+                        -279.25758338697034
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -533.0682581121274,
+                        -279.25758338697034
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60cf6c8ab2045a6f185a9595": {
+          "nodeID": "60cf6c8ab2045a6f185a9595",
+          "type": "block",
+          "coords": [
+            -228.06818181818215,
+            224.74242424242402
+          ],
+          "data": {
+            "name": "Block",
+            "color": "green",
+            "steps": [
+              "60cf6c8ab2045a6f185a9592"
+            ]
+          }
+        },
+        "60cf7018b2045a6f185a97f0": {
+          "nodeID": "60cf7018b2045a6f185a97f0",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Ingolstadt hat 17 Torschüsse."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf6095b2045a6f185a9206",
+                "id": "60cf7018b2045a6f185a97f2",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        283.18173998052384,
+                        51.24247669451151
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        39.55676382238181,
+                        51.24247669451151
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        39.55676382238181,
+                        -231.2575233054885
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -204.06821233576022,
+                        -231.2575233054885
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60cf7018b2045a6f185a97f3": {
+          "nodeID": "60cf7018b2045a6f185a97f3",
+          "type": "block",
+          "coords": [
+            448.18181818181785,
+            -28.757575757575893
+          ],
+          "data": {
+            "name": "Block",
+            "color": "green",
+            "steps": [
+              "60cf7018b2045a6f185a97f0"
+            ]
+          }
+        },
+        "60cf7196b2045a6f185a9953": {
+          "nodeID": "60cf7196b2045a6f185a9953",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "reprompt",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "default",
+                  "content": ""
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "bf5k37d1",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "chips": null,
+            "buttons": null,
+            "ports": [
+              {
+                "type": "",
+                "target": null,
+                "id": "60cf7196b2045a6f185a9955"
+              },
+              {
+                "type": "",
+                "target": "60cf6095b2045a6f185a9206",
+                "id": "60cf7196b2045a6f185a9956"
+              }
+            ]
+          }
+        },
+        "60cf7196b2045a6f185a9957": {
+          "nodeID": "60cf7196b2045a6f185a9957",
+          "type": "block",
+          "coords": [
+            -854.318181818182,
+            -301.25757575757586
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "60cf7196b2045a6f185a9953"
+            ]
+          }
+        }
+      },
+      "variables": [],
+      "children": [
+        "60cf6b869f6ecf001b770382"
+      ],
+      "name": "ROOT",
+      "versionID": "60ca0299070e180006109148",
+      "creatorID": 66830,
+      "modified": 1624208152
+    },
+    "60cf6b869f6ecf001b770382": {
+      "_id": "60cf6b869f6ecf001b770382",
+      "offsetX": 913.2506117908788,
+      "offsetY": 580.0053086599861,
+      "zoom": 80,
+      "variables": [],
+      "children": [],
+      "nodes": {
+        "60cf6b86b2045a6f185a936f": {
+          "nodeID": "60cf6b86b2045a6f185a936f",
+          "type": "start",
+          "coords": [
+            -710.9459459459459,
+            -26.925675675675677
+          ],
+          "data": {
+            "name": "Start",
+            "color": "standard",
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf6c00b2045a6f185a94c9",
+                "id": "60cf6b93b2045a6f185a9370",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -545.9460259463852,
+                        53.074393783460366
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -490.9413824030388,
+                        53.074393783460366
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -490.9413824030388,
+                        2.705590089018841
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -435.93673885969235,
+                        2.705590089018841
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": []
+          }
+        },
+        "60cf6c00b2045a6f185a94ef": {
+          "nodeID": "60cf6c00b2045a6f185a94ef",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "reprompt",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "default",
+                  "content": "Entschuldingung Ich habe Sie nicht verstanden, probieren Sie es nocheinmal"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "ybgc37i2",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "chips": null,
+            "buttons": null,
+            "ports": [
+              {
+                "type": "",
+                "target": null,
+                "id": "60cf6c00b2045a6f185a94f0"
+              },
+              {
+                "type": "",
+                "target": "60cf6c00b2045a6f185a94e9",
+                "id": "60cf6c00b2045a6f185a94f1",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        2019.0632455811271,
+                        1248.5283209919296
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        2043.0632455811271,
+                        1248.5283209919296
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        2043.0632455811271,
+                        891.6573502659164
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1911.4824741348991,
+                        891.6573502659164
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1911.4824741348991,
+                        534.7863795399032
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1935.4824741348991,
+                        534.7863795399032
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94ec": {
+          "nodeID": "60cf6c00b2045a6f185a94ec",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Das Spiel ist beendet."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": null,
+                "id": "60cf6c00b2045a6f185a94ed"
+              }
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94e9": {
+          "nodeID": "60cf6c00b2045a6f185a94e9",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Mustermann hat das Tor geschossen. Vorgelegt von Petermann.<break time=\"10s\" />"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf6c00b2045a6f185a94ec",
+                "id": "60cf6c00b2045a6f185a94ea",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        2008.624492753467,
+                        -68.1209131878061
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        2115.530598748645,
+                        -68.1209131878061
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        2115.530598748645,
+                        116.24340565985015
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        2222.436704743823,
+                        116.24340565985015
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94e6": {
+          "nodeID": "60cf6c00b2045a6f185a94e6",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Ingolstadt hat ein Tor geschossen!<emphasis level=\"strong\">  </emphasis> "
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf6c00b2045a6f185a94d7",
+                "id": "60cf6c00b2045a6f185a94e7",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        1883.1712652120355,
+                        1006.112856077813
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1907.1712652120355,
+                        1006.112856077813
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1907.1712652120355,
+                        1143.528368162774
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1854.0632100972894,
+                        1143.528368162774
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1854.0632100972894,
+                        1167.528368162774
+                      ],
+                      "toTop": true,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94e3": {
+          "nodeID": "60cf6c00b2045a6f185a94e3",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Mustermann bekommt 2 Strafminuten wegen Haltens<break time=\"4s\" />"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf6c00b2045a6f185a94d1",
+                "id": "60cf6c00b2045a6f185a94e4",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        1331.168995965442,
+                        141.44057544058134
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1460.3134137281984,
+                        141.44057544058134
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1460.3134137281984,
+                        288.20559008901887
+                      ],
+                      "toTop": true,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94df": {
+          "nodeID": "60cf6c00b2045a6f185a94df",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "reprompt",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "default",
+                  "content": "Entschuldingung Ich habe Sie nicht verstanden, probieren Sie es nocheinmal"
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "35f037l0",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "chips": null,
+            "buttons": null,
+            "ports": [
+              {
+                "type": "",
+                "target": null,
+                "id": "60cf6c00b2045a6f185a94e0"
+              },
+              {
+                "type": "",
+                "target": "60cf6c00b2045a6f185a94cf",
+                "id": "60cf6c00b2045a6f185a94e1",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        842.4189959654418,
+                        162.6548698741751
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        921.7939849981872,
+                        162.6548698741751
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        921.7939849981872,
+                        81.44056018179235
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1001.1689740309325,
+                        81.44056018179235
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94dc": {
+          "nodeID": "60cf6c00b2045a6f185a94dc",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "München  ist für 2 Minuten in Überzahl."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf6c00b2045a6f185a94df",
+                "id": "60cf6c00b2045a6f185a94dd",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        486.6779311869486,
+                        24.458741905064553
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        510.6779311869486,
+                        24.458741905064553
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        510.6779311869486,
+                        93.05680026903515
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        487.4190640353515,
+                        93.05680026903515
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        487.4190640353515,
+                        161.65485863300574
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        511.4190640353515,
+                        161.65485863300574
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94d9": {
+          "nodeID": "60cf6c00b2045a6f185a94d9",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Das Spiel hat begonnen.<break time=\"5s\" />"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "60cf6c00b2045a6f185a94cb",
+                "id": "60cf6c00b2045a6f185a94da"
+              }
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94d7": {
+          "nodeID": "60cf6c00b2045a6f185a94d7",
+          "type": "block",
+          "coords": [
+            1596.2051127633667,
+            542.6209677419354
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "60cf6c00b2045a6f185a94ef"
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94d5": {
+          "nodeID": "60cf6c00b2045a6f185a94d5",
+          "type": "block",
+          "coords": [
+            2388.4367352614013,
+            37.243364175017405
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "60cf6c00b2045a6f185a94ec"
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94d3": {
+          "nodeID": "60cf6c00b2045a6f185a94d3",
+          "type": "block",
+          "coords": [
+            1843.6244676020765,
+            -170.12096774193537
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "60cf6c00b2045a6f185a94e9"
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94d1": {
+          "nodeID": "60cf6c00b2045a6f185a94d1",
+          "type": "block",
+          "coords": [
+            1460.3132647385987,
+            289.20554437523924
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "60cf6c00b2045a6f185a94e6"
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94cf": {
+          "nodeID": "60cf6c00b2045a6f185a94cf",
+          "type": "block",
+          "coords": [
+            1166.1689264962297,
+            50.44053152979029
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "60cf6c00b2045a6f185a94e3"
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94cd": {
+          "nodeID": "60cf6c00b2045a6f185a94cd",
+          "type": "block",
+          "coords": [
+            677.41892649623,
+            82.65481724407607
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "60cf6c00b2045a6f185a94df"
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94cb": {
+          "nodeID": "60cf6c00b2045a6f185a94cb",
+          "type": "block",
+          "coords": [
+            321.6779321232889,
+            -66.54130103206319
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "60cf6c00b2045a6f185a94dc"
+            ]
+          }
+        },
+        "60cf6c00b2045a6f185a94c9": {
+          "nodeID": "60cf6c00b2045a6f185a94c9",
+          "type": "block",
+          "coords": [
+            -270.9367352614013,
+            -28.294455624760758
+          ],
+          "data": {
+            "name": "Block",
+            "color": "standard",
+            "steps": [
+              "60cf6c00b2045a6f185a94d9"
+            ]
+          }
+        }
+      },
+      "versionID": "60ca0299070e180006109148",
+      "creatorID": 66830,
+      "name": "update",
+      "modified": 1624208111
+    }
+  }
+}
